@@ -1,1 +1,174 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sofia Lescano Carroll Talks.">
+    <title>Sofia Lescano Carroll &ndash; Talks</title>
+    <script src="https://kit.fontawesome.com/2861bfd3fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <img alt="Sofia Lescano's avatar" class="brand-avatar" src="avatar.jpeg">
+            <h1 class="brand-title">Sofia Lescano Carroll</h1>
+            <h2 class="brand-tagline">Senior Software Developer</h2>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://twitter.com/soflesc" target="_blank" alt="Twitter">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://github.com/soflesc" target="_blank" alt="Github">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://www.linkedin.com/in/sofialescanocarroll/" target="_blank" alt="Linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">Talks</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+<!--                        <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="/img/common/tilo-avatar.png">-->
+
+                        <h2 class="post-title">L'instabilité de nos tests nous empêche de délivrer</h2>
+
+                        <p class="post-meta">
+                            <a href="https://live.symfony.com/2024-paris/" class="post-author">Symfony Live Paris 2024</a> <a class="post-category post-category-design" href="#">Tests</a> <a class="post-category post-category-pure" href="#">Methodology</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Vos tests vous mettent en colère ? Vous empêchent-ils d'itérer rapidement ?
+
+                            De plus en plus de développeurs travaillent sur notre monolithe et certains tests ont commencé à échouer de manière aléatoire et cela s'est propagé rapidement dans notre base de code. Comme notre objectif principal est de fournir des fonctionnalités significatives à nos clients avec un code de qualité et une plateforme stable, les échecs de test bloquent notre CI. Cela entraîne une énorme perte de temps et de la frustration lorsque l'application n'est pas vraiment cassée.
+
+                            Ce problème était connu depuis un moment… Mais personne ne voulait s'y attaquer; le cacher sous le tapis était plus facile. Et coder des fonctionnalités est bien plus gratifiant que de corriger des tests buggés ! Au cours de cette conférence, nous verrons des exemples concrets des raisons pour lesquelles nos tests n'étaient pas satisfaisants et la manière dont nous les avons corrigés, avec des stratégies à la fois techniques et humaines.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <h2 class="post-title">I did it ! I broke production</h2>
+
+                        <p class="post-meta">
+                            <a class="post-author" href="https://live.symfony.com/2023-brussels-con/">SymfonyCon Brussels 2024</a> <a class="post-category post-category-pure" href="#">Methodology</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            About to finish my first year in my company, I caused not one but two incidents in production in one hour! Despite the tense moment, it was a huge learning. No one ran with their arms in the air, shouting at each other, nor began to look for culprits. Conversely, a close-knit team that helps each other reestablished the production as quickly as possible by collectively acknowledging the error made.
+
+                            How do we manage a production incident with peace of mind?
+
+                            an upstream quality process (code review, sandbox environment, functional review ...)
+                            a process for detecting and reporting incidents
+                            clear roles and responsabilities on incident management
+                            a post-mortem and concrete actions to avoid a repeating similar incident
+                            In this conference I will explain how to reduce and improve the management of your incidents and you will leave with the keys to apply this in your teams.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <h2 class="post-title">DevOps ? Je n'ai jamais voulu faire ça, et pourtant …</h2>
+
+                        <p class="post-meta">
+                            <a class="post-author" href="https://event.afup.org/afup-day-2020/afup-day-2020-lyon/programme/">Afup Day 2020</a> <a class="post-category post-category-yui" href="#">Devops</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Développeuse junior : première semaine. Mes collègues m'ont forcée à déployer ma première feature sur 6play ! Malgré un petit frisson, tout s'est bien passé, grâce aux outils et bonnes pratiques qui nous guident.
+                            Ce n'était que le début ! Depuis, je gère l'infrastructure de mon projet. Je choisis mes bases de données, caches, mécanismes de stockage, ressources… En prenant en compte leur coût, les modes de backups ou les compétences dans nos équipes. Et je suis libre d'expérimenter avec n'importe quel service que je voudrais tester.
+                            En un an, je suis passée de "simple développeuse" à quelqu'un qui a conscience de sa plateforme, qui monitore son code et est responsable de sa production. Comment ai-je vécu cette transition ? Comment ai-je grandi en tant que développeuse ?
+                            Vous aussi, profitez de votre nouvelle liberté : devenez DevOps !
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+<!--            <div class="posts">-->
+<!--                <h1 class="content-subhead">Recent Posts</h1>-->
+
+<!--                <section class="post">-->
+<!--                    <header class="post-header">-->
+<!--                        <img width="48" height="48" alt="Reid Burke&#x27;s avatar" class="post-avatar" src="/img/common/reid-avatar.png">-->
+
+<!--                        <h2 class="post-title">Photos from CSSConf and JSConf</h2>-->
+
+<!--                        <p class="post-meta">-->
+<!--                            By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>-->
+<!--                        </p>-->
+<!--                    </header>-->
+
+<!--                    <div class="post-description">-->
+<!--                        <div class="post-images pure-g">-->
+<!--                            <div class="pure-u-1 pure-u-md-1-2">-->
+<!--                                <a href="http://www.flickr.com/photos/uberlife/8915936174/">-->
+<!--                                    <img alt="Photo of someone working poolside at a resort"-->
+<!--                                         class="pure-img-responsive"-->
+<!--                                         src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">-->
+<!--                                </a>-->
+
+<!--                                <div class="post-image-meta">-->
+<!--                                    <h3>CSSConf Photos</h3>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                            <div class="pure-u-1 pure-u-md-1-2">-->
+<!--                                <a href="http://www.flickr.com/photos/uberlife/8907351301/">-->
+<!--                                    <img alt="Photo of the sunset on the beach"-->
+<!--                                         class="pure-img-responsive"-->
+<!--                                         src="http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">-->
+<!--                                </a>-->
+
+<!--                                <div class="post-image-meta">-->
+<!--                                    <h3>JSConf Photos</h3>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+<!--            </div>-->
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+<!--                    <ul>-->
+<!--                        <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>-->
+<!--                        <li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">GitHub</a></li>-->
+<!--                    </ul>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
